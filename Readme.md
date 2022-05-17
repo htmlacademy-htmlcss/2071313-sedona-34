@@ -3,12 +3,12 @@
 * Студент: [Дмитрий Левашов](https://up.htmlacademy.ru/htmlcss/34/user/2071313).
 * Наставник: Евгений Петров.
 
----
+
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
----
+
 
 ### Памятка
 
