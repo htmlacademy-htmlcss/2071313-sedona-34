@@ -1,14 +1,14 @@
 # Личный проект «Седона»
 
 * Студент: [Дмитрий Левашов](https://up.htmlacademy.ru/htmlcss/34/user/2071313).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Петров](https://htmlacademy.ru/profile/id617077)
 
----
+
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
----
+
 
 ### Памятка
 
