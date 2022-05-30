@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="style.css">
     <base href="https://htmlacademy-htmlcss.github.io/2071313-sedona-34/3/">
 </head>
 
@@ -24,24 +25,21 @@
         </li>
       </ul>
     </nav>
-    <a class="navigation-link" href="#">
-      <img src="images/vector/search.svg" width="18" height="18" alt="Иконка поиска.">
+    <a class="navigation-search" href="#">
       <span class="visually-hidden">Поиск</span>
     </a>
-    <a class="navigation-link" href="#">
-      <img src="images/vector/like.svg" width="18" height="17" alt="Иконка сердечка.">
+    <a class="navigation-like" href="#">
       <span class="visually-hidden">Нравится</span>
     </a>
-    <a class="navigation-link" href="#">
+    <a class="navigation-button" href="#">
       <span class="visually-hidden">Хочу сюда</span>
     </a>
   </header>
 
   <main class="main-index">
     <div class="main-title">
-      <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
+      <h1 class="visually-hidden main-background">Добро пожаловать в Седону</h1>
       <img class="logo" src="images/vector/welcome.svg" width="458" height="352" alt="Изображение с логотипом Седоны.">
-      <img class="main-background" src="images/main-background.jpg" width="1200" height="458" alt="Фотография каньона.">
     </div>
 
     <section class="desc">
@@ -62,18 +60,15 @@
             <img src="images/town.jpg" width="458" height="352" alt="Фото домов в Седоне.">
           </div>
           <ul class="advantages-features">
-            <li class="feature">
-              <img src="images/vector/house.svg" width="74" height="72" alt="Иконка дома." class="feature-icon">
+            <li class="feature house-icon">
               <h4 class="feature-title">Жильё</h4>
               <p class="feature-desc">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </li>
-            <li class="feature">
-              <img src="images/vector/food.svg" width="73" height="70" alt="Иконка бургера." class="feature-icon">
+            <li class="feature food-icon">
               <h4 class="feature-title">Еда</h4>
               <p class="feature-desc">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
             </li>
-            <li class="feature">
-              <img src="images/vector/present.svg" width="64" height="76" alt="Иконка подарка." class="feature-icon">
+            <li class="feature present-icon">
               <h4 class="feature-title">Сувениры</h4>
               <p class="feature-desc">Не только китайского, но и настоящего местного производства!</p>
             </li>
@@ -116,9 +111,8 @@
   <footer class="page-footer">
     
     <section class="subscription">
-      <h2 class="subscription-title">Подпишитесь на рассылку</h2>
+      <h2 class="subscription-title footer-background">Подпишитесь на рассылку</h2>
       <p class="subscription-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <img class="footer-background" src="images/footer-background.jpg" width="1200" height="411" alt="Фоновое изображение каньона.">
       <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
         <input type="text" name="subscription-field" placeholder="Ваш e-mail">
         <button class="subscribe-button" type="submit">Подписаться</button>
@@ -129,27 +123,23 @@
       <h2 class="visually-hidden">Соцсети</h2>
       <ul class="footer-list">
         <li class="footer-item">
-          <a class="contact-button" href="https://vk.com/htmlacademy">
-            <img src="images/vector/vkontakte.svg" width="24" height="14" alt="Иконка вконтакте.">
+          <a class="contact-button icon-1" href="https://vk.com/htmlacademy">
             <span class="visually-hidden">Вконтакте</span>
           </a>
         </li>
         <li class="footer-item">
-          <a class="contact-button" href="https://t.me/htmlacademy">
-            <img src="images/vector/telegram.svg" width="18" height="15" alt="Иконка телеграм.">
+          <a class="contact-button icon-2" href="https://t.me/htmlacademy">
             <span class="visually-hidden">Телеграм</span>
           </a>
         </li>
         <li class="footer-item">
-          <a class="contact-button" href="https://www.youtube.com/user/htmlacademyru">
-            <img src="images/vector/youtube.svg" width="22" height="17" alt="Иконка ютуб.">
+          <a class="contact-button icon-3" href="https://www.youtube.com/user/htmlacademyru">
             <span class="visually-hidden">Ютуб</span>
           </a>
         </li>
       </ul>
       <a class="contact-number" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      <a class="main-page" href="https://htmlacademy.ru/">
-        <img src="images/vector/logo-academy.svg" width="115" height="33" alt="Логотип HTML Академии">
+      <a class="main-page logo-academy" href="https://htmlacademy.ru/">
         <span class="visually-hidden">Сайт академии</span>
       </a>
     </section>

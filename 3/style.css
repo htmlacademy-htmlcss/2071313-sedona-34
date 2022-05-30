@@ -1,0 +1,66 @@
+.navigation-search::before {
+    content: url("./images/vector/search.svg");
+    width: 18px;
+    height: 18px;
+}
+
+.navigation-like::before {
+    content: url("./images/vector/like.svg");
+    width: 18px;
+    height: 17px;
+}
+
+.main-background {
+    background-image: url(./images/main-background.jpg);
+    width: 1200px;
+    height: 458px;
+}
+
+.house-icon::before {
+    content: url("./images/vector/house.svg");
+    width: 74px;
+    height: 72px;
+}
+
+
+.food-icon::before {
+    content: url("./images/vector/food.svg");
+    width: 73px;
+    height: 70px;
+}
+
+.present-icon::before {
+    content: url("./images/vector/present.svg");
+    width: 64px;
+    height: 76px;
+}
+
+.footer-background {
+    background-image: url(./images/footer-background.jpg);
+    width: 1200px;
+    height: 411px;
+}
+
+.icon-1 {
+    content: url("./images/vector/vkontakte.svg");
+    width: 24px;
+    height: 14px;
+}
+
+.icon-2 {
+    content: url("./images/vector/telegram.svg");
+    width: 18px;
+    height: 15px;
+}
+
+.icon-3 {
+    content: url("./images/vector/youtube.svg");
+    width: 22px;
+    height: 17px;  
+}
+
+.logo-academy::before {
+    content: url("./images/vector/logo-academy.svg");
+    width: 115px;
+    height: 33px;
+}
