@@ -1,3 +1,44 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    background-color: #ffffff;  
+}
+
+.page-header {
+    color: #000000;
+    background: #ffffff;
+}
+
+.navigation-link {
+    font-family: "PT Sans", sans-serif;
+    line-height: 26px;
+    font-size: 20px;
+    color: #000000;
+    background-color: #ffffff
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    Vertical align: Top;
+}
+
 .navigation-search::before {
     content: url("./images/vector/search.svg");
     width: 18px;
@@ -14,6 +55,8 @@
     background-image: url(./images/main-background.jpg);
     width: 1200px;
     height: 458px;
+    color: #000000;
+    background-color: #82B3D3;
 }
 
 .house-icon::before {
