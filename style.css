@@ -125,6 +125,21 @@ body {
     color: #000000;
 }
 
+.food-icon {
+    background: #FFFFFF;
+}
+
+.advantages-color {
+    background: rgba(131, 179, 211, 0.2);
+}
+
+/*
+.desc-mailing {
+    color: #000000;
+    background: #ffffff;  
+}
+*/
+
 .house-icon::before {
     content: url("./images/vector/house.svg");
     width: 74px;
