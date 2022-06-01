@@ -1,0 +1,301 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
+.page-header {
+    background-size: 100% auto;
+    color: #000000;
+    background: #ffffff;
+}
+
+.navigation-link {
+    font-family: "PT Sans", sans-serif;
+    line-height: 26px;
+    font-size: 20px;
+    color: #000000;
+    background-color: #ffffff font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: none;
+    Vertical align: Top;
+}
+
+.navigation-search::before {
+    content: url("./images/vector/search.svg");
+    width: 18px;
+    height: 18px;
+}
+
+.navigation-like::before {
+    content: url("./images/vector/like.svg");
+    width: 18px;
+    height: 17px;
+}
+
+.navigation-button {
+    background: #756157;
+    text-decoration: none;
+}
+
+.navigation-text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-background {
+    background-image: url(./images/main-background.jpg);
+    background-size: 100% auto;
+    color: #000000;
+    background-color: #82B3D3;
+}
+
+
+.desc {
+    background-size: 100% auto;
+    color: #000000;
+    background: #ffffff;
+}
+
+
+.headline {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 100% auto;
+    color: #000000;
+}
+
+.preview {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+
+.advantages {
+    color: #000000;
+    background: #ffffff;
+    background-size: 100% auto;
+}
+
+.advantages-list {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.advantages-preview {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    background: #82B3D3;
+}
+
+.advantages-features {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    background: rgba(131, 179, 211, 0.12);
+}
+
+.house-icon::before {
+    content: url("./images/vector/house.svg");
+    width: 74px;
+    height: 72px;
+}
+
+.feature-title {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.food-icon {
+    background: #FFFFFF;
+}
+
+.food-icon::before {
+    content: url("./images/vector/food.svg");
+    width: 73px;
+    height: 70px;
+}
+
+.present-icon::before {
+    content: url("./images/vector/present.svg");
+    width: 64px;
+    height: 76px;
+}
+
+.advantages-color {
+    background: rgba(131, 179, 211, 0.2);
+}
+
+.desc-mailing {
+    color: #000000;
+    background: #ffffff;
+    background-size: 100% auto;
+}
+
+.mailing {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+.mailing-preview {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+    text-align: center;
+}
+
+.search {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    background: #756157;
+}
+
+.subscription {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    background-color: #82B3D3;
+    color: #FFFFFF;
+}
+
+.subscription-title {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subscribe-button {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #82B3D3;
+    color: #FFFFFF;
+}
+
+.footer-background {
+    background: #82B3D3;
+    background-image: url(./images/footer-background.jpg);
+    background-size: 100% auto;
+}
+
+.footer-contacts {
+    color: #000000;
+    background: #ffffff;
+    background-size: 100% auto;
+}
+
+.icon-1 {
+    content: url("./images/vector/vkontakte.svg");
+    width: 24px;
+    height: 14px;
+}
+
+.icon-2 {
+    content: url("./images/vector/telegram.svg");
+    width: 18px;
+    height: 15px;
+}
+
+.icon-3 {
+    content: url("./images/vector/youtube.svg");
+    width: 22px;
+    height: 17px;
+}
+
+.contact-number {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo-academy::before {
+    content: url("./images/vector/logo-academy.svg");
+    width: 115px;
+    height: 33px;
+}
