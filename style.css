@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 18px;
     line-height: 21px;
     color: #000000;
@@ -34,14 +34,15 @@ body {
 }
 
 .navigation-link {
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     line-height: 26px;
     font-size: 20px;
+    font-weight: 700;
     color: #000000;
-    background-color: #ffffff font-weight: 700;
+    background-color: #ffffff;
     text-transform: capitalize;
     text-decoration: none;
-    Vertical align: Top;
+    vertical-align: Top;
 }
 
 .navigation-search::before {
@@ -62,7 +63,7 @@ body {
 }
 
 .navigation-text {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -88,7 +89,7 @@ body {
 
 
 .headline {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -100,7 +101,7 @@ body {
 }
 
 .preview {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -118,7 +119,7 @@ body {
 }
 
 .advantages-list {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -127,7 +128,7 @@ body {
 }
 
 .advantages-preview {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-size: 18px;
     line-height: 21px;
@@ -136,7 +137,7 @@ body {
 }
 
 .advantages-features {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-size: 18px;
     line-height: 21px;
@@ -151,7 +152,7 @@ body {
 }
 
 .feature-title {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -188,6 +189,7 @@ body {
 }
 
 .mailing {
+    font-family: "PT Sans", Arial, sans-serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -197,7 +199,7 @@ body {
 }
 
 .mailing-preview {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -207,7 +209,7 @@ body {
 }
 
 .search {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -220,7 +222,7 @@ body {
 }
 
 .subscription {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -231,7 +233,7 @@ body {
 }
 
 .subscription-title {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -241,7 +243,7 @@ body {
 }
 
 .subscribe-button {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -283,7 +285,7 @@ body {
 }
 
 .contact-number {
-    font-family: 'PT Sans';
+    font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
