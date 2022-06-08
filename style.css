@@ -62,8 +62,6 @@ body {
 }
 
 .navigation-list {
-    /* margin: 0;
-    padding: 0; */
     display: flex;
     justify-content: center;
     list-style: none;
@@ -470,7 +468,7 @@ body {
     width: 24px;
     height: 14px;
     margin-left: 82px;
-    
+
 }
 
 .icon-2 {
@@ -497,7 +495,6 @@ body {
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
-    text-align: center;
     margin-left: 448px;
     margin-bottom: 35px;
     margin-top: 45px;
