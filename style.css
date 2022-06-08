@@ -62,8 +62,8 @@ body {
 }
 
 .navigation-list {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     display: flex;
     justify-content: center;
     list-style: none;
@@ -81,6 +81,12 @@ body {
 
 .navigation-item-main {
     width: 68px;
+    margin-left: -250px;
+}
+
+.navigation-item-about {
+    width: 82px;
+    padding-left: 34px;
 }
 
 .navigation-link {
@@ -95,6 +101,11 @@ body {
     text-transform: capitalize;
     text-decoration: none;
     vertical-align: top;
+}
+
+.navigation-item-hotel {
+    width: 93px;
+    padding-left: 34px;
 }
 
 .navigation-ikon {
@@ -451,24 +462,29 @@ body {
     padding: 0;
     display: flex;
     list-style: none;
+    margin-top: 58px;
 }
 
 .icon-1 {
     content: url("./images/vector/vkontakte.svg");
     width: 24px;
     height: 14px;
+    margin-left: 82px;
+    
 }
 
 .icon-2 {
     content: url("./images/vector/telegram.svg");
     width: 18px;
     height: 15px;
+    padding-left: 27px;
 }
 
 .icon-3 {
     content: url("./images/vector/youtube.svg");
     width: 22px;
     height: 17px;
+    padding-left: 27px;
 }
 
 .contact-number {
@@ -484,6 +500,7 @@ body {
     text-align: center;
     margin-left: 448px;
     margin-bottom: 35px;
+    margin-top: 45px;
 }
 
 .logo-academy::before {
@@ -491,6 +508,5 @@ body {
     width: 115px;
     height: 33px;
     margin-bottom: 38px;
-    /* margin-right: 70px; */
     padding-left: 235px;
 }
