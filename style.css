@@ -42,7 +42,6 @@ body {
 
 .page-header {
     display: flex;
-    /* justify-content: space-around; */
     position: relative;
     width: 1200px;
     height: 65px;
@@ -52,9 +51,7 @@ body {
 
 .navigation {
     display: flex;
-    /* width: 390px; */
     height: 65px;
-    /* margin: 0 auto; */
 }
 
 .page-logo {
@@ -65,7 +62,6 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    /* justify-content: center; */
     list-style: none;
 }
 
@@ -168,12 +164,13 @@ body {
 
 .main-background {
     background-image: url(./images/main-background.jpg);
-    background-size: 100% auto;
+    background-size: cover;
     width: 1200px;
     height: 485px;
     color: #000000;
     background-color: #82B3D3;
     padding-top: 51px;
+    background-repeat: no-repeat;
 }
 
 .logo {
@@ -279,10 +276,11 @@ body {
 
 .house-icon::before {
     content: url("./images/vector/house.svg");
+    position: absolute;
     width: 75px;
     height: 72px;
     margin-top: 80px;
-    margin-right: 162px;
+    margin-left: 163px;
 }
 
 .feature-title {
@@ -303,12 +301,18 @@ body {
 
 .food-icon::before {
     content: url("./images/vector/food.svg");
+    position: absolute;
+    margin-top: 81px;
+    margin-left: 163px;
     width: 73px;
     height: 70px;
 }
 
 .present-icon::before {
     content: url("./images/vector/present.svg");
+    position: absolute;
+    margin-top: 78px;
+    margin-left: 168px;
     width: 64px;
     height: 76px;
 }
@@ -318,10 +322,12 @@ body {
 }
 
 .desc-mailing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     margin: 0;
-    width: 1200px;
-    height: 417px;
     color: #000000;
     background: #ffffff;
     background-size: 100% auto;
@@ -336,6 +342,7 @@ body {
     color: #000000;
     text-align: center;
     margin-top: 91px;
+    margin-bottom: 29px;
 }
 
 .mailing-preview {
@@ -346,7 +353,8 @@ body {
     line-height: 26px;
     color: #333333;
     text-align: center;
-    margin-top: 29px;
+    margin: 0;
+    margin-bottom: 56px;
 }
 
 .search {
@@ -359,8 +367,6 @@ body {
     width: 574px;
     height: 60px;
     border-radius: 4px;
-    margin-top: 56px;
-    margin-left: 313px;
     margin-bottom: 93px;
 }
 
@@ -445,12 +451,16 @@ body {
 .footer-background {
     background: #82B3D3;
     background-image: url(./images/footer-background.jpg);
-    background-size: 100% auto;
-    width: 1200px;
-    height: 411px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
 }
 
 .footer-contacts {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
     color: #000000;
     background: #ffffff;
     background-size: 100% auto;
@@ -463,29 +473,40 @@ body {
     padding: 0;
     display: flex;
     list-style: none;
+}
+
+.footer-item-1 {
     margin-top: 58px;
+    margin-bottom: 48px;
+    margin-left: 81px;
+}
+
+.footer-item-2 {
+    margin-top: 57px;
+    margin-left: 23px;
+}
+
+.footer-item-3 {
+    margin-top: 57px;
+    margin-left: 27px;
 }
 
 .icon-1 {
     content: url("./images/vector/vkontakte.svg");
     width: 24px;
     height: 14px;
-    margin-left: 82px;
-
 }
 
 .icon-2 {
     content: url("./images/vector/telegram.svg");
     width: 18px;
     height: 15px;
-    padding-left: 27px;
 }
 
 .icon-3 {
     content: url("./images/vector/youtube.svg");
     width: 22px;
     height: 17px;
-    padding-left: 27px;
 }
 
 .contact-number {
@@ -498,15 +519,19 @@ body {
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
-    margin-left: 448px;
-    margin-bottom: 35px;
     margin-top: 45px;
+    margin-bottom: 35px;
+    margin-left: 249px;
+}
+
+.academy-iсon {
+    margin-top: 49px;
+    margin-bottom: 38px;
+    margin-left: 235px;
 }
 
 .logo-academy::before {
     content: url("./images/vector/logo-academy.svg");
     width: 115px;
     height: 33px;
-    margin-bottom: 38px;
-    padding-left: 235px;
 }
