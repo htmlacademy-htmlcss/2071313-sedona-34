@@ -51,6 +51,7 @@ body {
 
 .navigation {
     display: flex;
+    flex-direction: row;
     height: 65px;
 }
 
@@ -77,13 +78,13 @@ body {
 
 .navigation-item-main {
     width: 68px;
-    padding-left: 47px;
+    margin-left: 47px;
     margin-top: 20px;
 }
 
 .navigation-item-about {
     width: 82px;
-    padding-left: 34px;
+    margin-left: 34px;
     margin-top: 20px;
 }
 
@@ -103,14 +104,14 @@ body {
 
 .navigation-item-hotel {
     width: 93px;
-    padding-left: 34px;
+    margin-left: 34px;
     margin-top: 20px;
 }
 
 .navigation-ikon {
     width: 264px;
     height: 65px;
-    padding-left: 311px;
+    margin-left: 311px;
 }
 
 .navigation-search::before {
@@ -125,7 +126,7 @@ body {
     content: url("./images/vector/like.svg");
     width: 18px;
     height: 17px;
-    padding-left: 23px;
+    margin-left: 23px;
     margin-bottom: 24px;
     text-decoration: none;
 }
@@ -460,7 +461,6 @@ body {
 .footer-contacts {
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     color: #000000;
     background: #ffffff;
     background-size: 100% auto;
