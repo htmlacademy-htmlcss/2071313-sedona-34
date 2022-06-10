@@ -47,17 +47,18 @@ body {
     height: 65px;
     color: #000000;
     background: #ffffff;
+    padding: 0 70px;
+    box-sizing: border-box;
 }
 
 .navigation {
     display: flex;
     flex-direction: row;
     height: 65px;
+    flex-grow: 1;
 }
 
-.page-logo {
-    margin-left: 70px;
-}
+.page-logo {}
 
 .navigation-list {
     margin: 0;
@@ -111,7 +112,6 @@ body {
 .navigation-ikon {
     width: 264px;
     height: 65px;
-    margin-left: 311px;
 }
 
 .navigation-search::before {
@@ -465,7 +465,13 @@ body {
     background: #ffffff;
     background-size: 100% auto;
     width: 1200px;
-    height: 120px;
+    box-sizing: border-box;
+    padding: 45px 70px 35px;
+    justify-content: space-between;
+}
+
+.footer-list a {
+    margin: 0 11px;
 }
 
 .footer-list {
@@ -473,22 +479,7 @@ body {
     padding: 0;
     display: flex;
     list-style: none;
-}
-
-.footer-item-1 {
-    margin-top: 58px;
-    margin-bottom: 48px;
-    margin-left: 81px;
-}
-
-.footer-item-2 {
-    margin-top: 57px;
-    margin-left: 23px;
-}
-
-.footer-item-3 {
-    margin-top: 57px;
-    margin-left: 27px;
+    align-items: center;
 }
 
 .icon-1 {
@@ -519,15 +510,6 @@ body {
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
-    margin-top: 45px;
-    margin-bottom: 35px;
-    margin-left: 249px;
-}
-
-.academy-iсon {
-    margin-top: 49px;
-    margin-bottom: 38px;
-    margin-left: 235px;
 }
 
 .logo-academy::before {
