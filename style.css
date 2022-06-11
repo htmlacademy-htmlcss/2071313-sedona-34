@@ -114,11 +114,18 @@ body {
     height: 65px;
 }
 
+.navigation-search {
+    text-decoration: none;
+}
+
 .navigation-search::before {
     content: url("./images/vector/search.svg");
     width: 18px;
     height: 18px;
     margin-bottom: 24px;
+}
+
+.navigation-like {
     text-decoration: none;
 }
 
@@ -128,7 +135,6 @@ body {
     height: 17px;
     margin-left: 23px;
     margin-bottom: 24px;
-    text-decoration: none;
 }
 
 .navigation-button {
@@ -258,6 +264,25 @@ body {
     background: rgba(131, 179, 211, 0.12);
 }
 
+.feature {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-bottom: 81px;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 80px;
+}
+
+.feature-desc {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+
 .advantages-block {
     display: flex;
     flex-direction: row;
@@ -275,14 +300,26 @@ body {
     background: #82B3D3;
 }
 
+.advantages-desc {
+}
+
 .house-icon::before {
     content: url("./images/vector/house.svg");
-    position: absolute;
     width: 75px;
     height: 72px;
-    margin-top: 80px;
-    margin-left: 163px;
+    margin: auto;
 }
+
+/* display: flex;
+    flex-direction: row;
+    color: #000000;
+    background: #ffffff;
+    background-size: 100% auto;
+    width: 1200px;
+    box-sizing: border-box;
+    padding: 45px 70px 35px;
+    justify-content: space-between; */
+
 
 .feature-title {
     font-family: "PT Sans", Arial, sans-serif;
@@ -293,7 +330,8 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #000000;
-    padding-top: 103px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .food-icon {
@@ -302,20 +340,16 @@ body {
 
 .food-icon::before {
     content: url("./images/vector/food.svg");
-    position: absolute;
-    margin-top: 81px;
-    margin-left: 163px;
+    margin: auto;
     width: 73px;
     height: 70px;
 }
 
 .present-icon::before {
     content: url("./images/vector/present.svg");
-    position: absolute;
-    margin-top: 78px;
-    margin-left: 168px;
     width: 64px;
     height: 76px;
+    margin: auto;
 }
 
 .advantages-color {
