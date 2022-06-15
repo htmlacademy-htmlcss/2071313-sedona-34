@@ -58,8 +58,6 @@ body {
     flex-grow: 1;
 }
 
-.page-logo {}
-
 .navigation-list {
     margin: 0;
     padding: 0;
@@ -186,12 +184,15 @@ body {
 }
 
 .desc {
-    width: 1200px;
-    height: 282px;
+    display: flex;
+    flex-direction: column;
     background-size: 100% auto;
     color: #000000;
     background: #ffffff;
-    padding: 0;
+    padding-top: 63px;
+    padding-bottom: 90px;
+    padding-left: 270px;
+    padding-right: 270px;
     margin: 0;
 }
 
@@ -205,7 +206,8 @@ body {
     text-transform: uppercase;
     background-size: 100% auto;
     color: #000000;
-    margin-top: 63px;
+    margin: 0;
+    margin-bottom: 31px;
 }
 
 .preview {
@@ -215,9 +217,8 @@ body {
     font-size: 22px;
     line-height: 26px;
     text-align: center;
-    text-transform: capitalize;
     color: #333333;
-    margin-top: 31px;
+    margin: 0;
 }
 
 .advantages {
@@ -241,6 +242,17 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #333333;
+}
+
+.advantages-item {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-top: 73px;
+    padding-bottom: 102px;
+    padding-left: 85px;
+    padding-right: 85px;
 }
 
 .advantages-features {
@@ -281,11 +293,15 @@ body {
     text-align: center;
 }
 
-
-
 .advantages-block {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.advantages-block-1 {
+    display: flex;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
 }
 
@@ -296,11 +312,35 @@ body {
     font-style: normal;
     font-size: 18px;
     line-height: 21px;
-    color: #333333;
+    color: #FFFFFF;
     background: #82B3D3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-top: 73px;
+    padding-bottom: 102px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.advantages-title {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    width: 230px;
+    height: 56px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .advantages-desc {
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .house-icon::before {
@@ -309,16 +349,6 @@ body {
     height: 72px;
     margin: auto;
 }
-
-/* display: flex;
-    flex-direction: row;
-    color: #000000;
-    background: #ffffff;
-    background-size: 100% auto;
-    width: 1200px;
-    box-sizing: border-box;
-    padding: 45px 70px 35px;
-    justify-content: space-between; */
 
 
 .feature-title {
@@ -361,7 +391,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    padding-top: 91px;
+    padding-bottom: 93px;
+    padding-left: 300px;
+    padding-right: 300px;
     margin: 0;
     color: #000000;
     background: #ffffff;
@@ -376,11 +409,14 @@ body {
     text-transform: uppercase;
     color: #000000;
     text-align: center;
-    margin-top: 91px;
+    margin: 0;
     margin-bottom: 29px;
+    padding: 0;
 }
 
 .mailing-preview {
+    display: flex;
+    flex-direction: column;
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -390,6 +426,9 @@ body {
     text-align: center;
     margin: 0;
     margin-bottom: 56px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 0;
 }
 
 .search {
@@ -402,7 +441,10 @@ body {
     width: 574px;
     height: 60px;
     border-radius: 4px;
-    margin-bottom: 93px;
+    margin: 0;
+    margin-left: 13px;
+    margin-right: 13px;
+    padding: 0;
 }
 
 .search-text {
