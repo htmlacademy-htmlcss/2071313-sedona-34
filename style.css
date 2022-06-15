@@ -265,6 +265,8 @@ body {
     padding-bottom: 102px;
     padding-left: 85px;
     padding-right: 85px;
+    width: 400px;
+    /* height: 348px; */
 }
 
 .advantages-features {
@@ -281,7 +283,6 @@ body {
     background: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-component,
 .feature {
     width: 400px;
     height: 348px;
@@ -297,6 +298,8 @@ body {
     padding-left: 85px;
     padding-right: 85px;
     padding-top: 80px;
+    width: 400px;
+    height: 384px;
 }
 
 .feature-desc {
