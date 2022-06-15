@@ -99,6 +99,8 @@ body {
     text-transform: capitalize;
     text-decoration: none;
     vertical-align: top;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .navigation-item-hotel {
@@ -114,23 +116,33 @@ body {
 
 .navigation-search {
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .navigation-search::before {
     content: url("./images/vector/search.svg");
     width: 18px;
     height: 18px;
+    margin: 0;
     margin-bottom: 24px;
 }
 
 .navigation-like {
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .navigation-like::before {
     content: url("./images/vector/like.svg");
     width: 18px;
     height: 17px;
+    margin: 0;
     margin-left: 23px;
     margin-bottom: 24px;
 }
@@ -145,7 +157,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 32px;
+    margin-left: 33px;
     margin-bottom: 14px;
     margin-top: 14px;
 }
@@ -463,6 +475,9 @@ body {
 }
 
 .subscription {
+    display: flex;
+    flex-direction: column;
+    /* box-sizing: border-box; */
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -471,6 +486,10 @@ body {
     text-align: center;
     background-color: #82B3D3;
     color: #FFFFFF;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .subscription-title {
@@ -479,12 +498,14 @@ body {
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
+    text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-top: 94px;
+    margin: 0;
+    margin-bottom: 29px;
 }
 
-.subscribe-text {
+.subscription-text {
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -492,15 +513,14 @@ body {
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 29px;
+    margin: 0;
+    margin-bottom: 46px;
 }
 
 .subscription-form {
     display: flex;
     width: 800px;
     height: 60px;
-    padding-left: 200px;
-    padding-bottom: 94px;
 }
 
 .input-text {
