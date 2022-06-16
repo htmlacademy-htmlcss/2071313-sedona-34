@@ -44,7 +44,6 @@ body {
     display: flex;
     position: relative;
     width: 1200px;
-    height: 65px;
     color: #000000;
     background: #ffffff;
     padding: 0 70px;
@@ -52,7 +51,7 @@ body {
 }
 
 .page-logo {
-    height: 75px;
+    height: 70px;
 }
 
 .navigation {
@@ -80,13 +79,11 @@ body {
 }
 
 .navigation-item-main {
-    margin-left: 39px;
-    margin-top: 20px;
+    margin: 20px 0 0 39px;
 }
 
 .navigation-item-about {
-    margin-left: 26px;
-    margin-top: 20px;
+    margin: 20px 0 0 26px;
 }
 
 .navigation-link {
@@ -105,8 +102,7 @@ body {
 }
 
 .navigation-item-hotel {
-    margin-left: 26px;
-    margin-top: 20px;
+    margin: 20px 0 0 26px;
 }
 
 .navigation-ikon {
@@ -147,9 +143,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 27px;
-    margin-bottom: 14px;
-    margin-top: 14px;
+    margin: 14px 0 14px 27px;
 }
 
 .navigation-text {
@@ -191,10 +185,7 @@ body {
     background-size: 100% auto;
     color: #000000;
     background: #ffffff;
-    padding-top: 63px;
-    padding-bottom: 90px;
-    padding-left: 270px;
-    padding-right: 270px;
+    padding: 63px 270px 90px 270px;
     margin: 0;
 }
 
@@ -208,8 +199,7 @@ body {
     text-transform: uppercase;
     background-size: 100% auto;
     color: #000000;
-    margin: 0;
-    margin-bottom: 31px;
+    margin: 0 0 31px 0;
 }
 
 .preview {
@@ -251,12 +241,8 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     justify-content: center;
-    padding-top: 73px;
-    padding-bottom: 102px;
-    padding-left: 85px;
-    padding-right: 85px;
+    padding: 73px 85px 102px 85px;
     width: 400px;
-    /* height: 348px; */
 }
 
 .advantages-features {
@@ -275,7 +261,6 @@ body {
 
 .feature {
     width: 400px;
-    height: 348px;
     background: rgba(131, 179, 211, 0.12);
 }
 
@@ -284,12 +269,8 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     justify-content: center;
-    padding-bottom: 81px;
-    padding-left: 85px;
-    padding-right: 85px;
-    padding-top: 80px;
+    padding: 80px 85px 81px 85px;
     width: 400px;
-    height: 384px;
 }
 
 .feature-desc {
@@ -324,10 +305,7 @@ body {
     flex-wrap: wrap;
     box-sizing: border-box;
     justify-content: center;
-    padding-top: 73px;
-    padding-bottom: 102px;
-    padding-left: 85px;
-    padding-right: 85px;
+    padding: 73px 85px 102px 85px;
 }
 
 .advantages-title {
@@ -355,7 +333,6 @@ body {
     margin: auto;
 }
 
-
 .feature-title {
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
@@ -365,8 +342,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #000000;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 0 30px 0;
 }
 
 .food-icon {
@@ -396,10 +372,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 91px;
-    padding-bottom: 93px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding: 91px 300px 93px 300px;
     margin: 0;
     color: #000000;
     background: #ffffff;
@@ -429,10 +402,7 @@ body {
     line-height: 26px;
     color: #333333;
     text-align: center;
-    margin: 0;
-    margin-bottom: 56px;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin: 0 4px 56px 4px;
     padding: 0;
 }
 
@@ -446,9 +416,7 @@ body {
     width: 574px;
     height: 60px;
     border-radius: 4px;
-    margin: 0;
-    margin-left: 13px;
-    margin-right: 13px;
+    margin: 0 13px 0 13px;
     padding: 0;
 }
 
@@ -470,7 +438,6 @@ body {
 .subscription {
     display: flex;
     flex-direction: column;
-    /* box-sizing: border-box; */
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -479,10 +446,7 @@ body {
     text-align: center;
     background-color: #82B3D3;
     color: #FFFFFF;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 94px 200px;
 }
 
 .subscription-title {
@@ -535,7 +499,6 @@ body {
     width: 200px;
     height: 60px;
     border-radius: 0px 10px 10px 0px;
-
 }
 
 .footer-background {
@@ -555,12 +518,12 @@ body {
     background-size: 100% auto;
     width: 1200px;
     box-sizing: border-box;
-    padding: 45px 70px 35px;
+    padding: 39px 64px 29px;
     justify-content: space-between;
 }
 
 .footer-list a {
-    margin: 0 11px;
+    margin: 0 5px;
 }
 
 .footer-list {
@@ -575,18 +538,21 @@ body {
     content: url("./images/vector/vkontakte.svg");
     width: 24px;
     height: 14px;
+    padding: 6px;
 }
 
 .icon-2 {
     content: url("./images/vector/telegram.svg");
     width: 18px;
     height: 15px;
+    padding: 6px;
 }
 
 .icon-3 {
     content: url("./images/vector/youtube.svg");
     width: 22px;
     height: 17px;
+    padding: 6px;
 }
 
 .contact-number {
@@ -599,6 +565,11 @@ body {
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
+    padding: 6px;
+}
+
+.main-page {
+    padding: 6px;
 }
 
 .logo-academy::before {
