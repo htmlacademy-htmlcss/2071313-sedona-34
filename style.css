@@ -46,26 +46,31 @@ body {
     width: 1200px;
     color: #000000;
     background: #ffffff;
-    padding: 0 70px;
+    padding: 0 67px 0 70px;
     box-sizing: border-box;
 }
 
 .page-logo {
-    height: 70px;
+    height: 65px;
 }
 
 .navigation {
     display: flex;
     flex-direction: row;
-    height: 65px;
     flex-grow: 1;
+    padding-left: 42px;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 10px;
 }
 
 .navigation-list {
     margin: 0;
     padding: 0;
-    display: flex;
     list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
 }
 
 .navigation-item {
@@ -76,14 +81,8 @@ body {
     line-height: 26px;
     text-transform: capitalize;
     color: #000000;
-}
-
-.navigation-item-main {
-    margin: 20px 0 0 39px;
-}
-
-.navigation-item-about {
-    margin: 20px 0 0 26px;
+    max-width: 110px;
+    margin: 0%;
 }
 
 .navigation-link {
@@ -91,40 +90,38 @@ body {
     line-height: 26px;
     font-size: 20px;
     font-weight: 700;
-    width: 68px;
-    height: 26px;
     color: #000000;
     background-color: #ffffff;
     text-transform: capitalize;
     text-decoration: none;
-    vertical-align: top;
-    padding: 6px;
-}
-
-.navigation-item-hotel {
-    margin: 20px 0 0 26px;
+    padding: 5px;
+    display: block;
+    word-wrap: inherit;
 }
 
 .navigation-ikon {
-    width: 264px;
-    height: 65px;
+    min-width: 264px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 14px 0 14px 0;
 }
 
 .navigation-search {
     text-decoration: none;
-    padding: 6px;
+    padding: 7px;
 }
 
 .navigation-search::before {
     content: url("./images/vector/search.svg");
     width: 18px;
     height: 18px;
+    margin-left: 3px;
 }
 
 .navigation-like {
     text-decoration: none;
     margin-left: 5px;
-    padding: 6px;
+    padding: 8px;
 }
 
 .navigation-like::before {
@@ -136,14 +133,13 @@ body {
 .navigation-button {
     display: inline-flex;
     width: 160px;
-    height: 37px;
     border-radius: 4px;
     background: #756157;
     text-decoration: none;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 14px 0 14px 27px;
+    margin-left: 21px;
 }
 
 .navigation-text {
