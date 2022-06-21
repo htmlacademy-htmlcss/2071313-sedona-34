@@ -52,6 +52,7 @@ body {
 
 .page-logo {
     height: 65px;
+    z-index: 1;
 }
 
 .navigation {
@@ -99,7 +100,7 @@ body {
     word-wrap: inherit;
 }
 
-.navigation-ikon {
+.navigation-icon {
     min-width: 264px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -161,18 +162,24 @@ body {
 
 .main-background {
     background-image: url(./images/main-background.jpg);
-    background-size: cover;
+    position: relative;
     width: 1200px;
     height: 485px;
     color: #000000;
     background-color: #82B3D3;
-    padding-top: 51px;
     background-repeat: no-repeat;
+}
+
+.main-background::before {
+    content: url("./images/vector/divider.svg");
+    position: absolute;
+    bottom: 0;
 }
 
 .logo {
     display: block;
     margin: 0 auto;
+    padding-top: 51px;
 }
 
 .desc {
@@ -289,7 +296,6 @@ body {
 
 .advantages-preview {
     width: 400px;
-    height: 384px;
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-size: 18px;
@@ -301,7 +307,7 @@ body {
     flex-wrap: wrap;
     box-sizing: border-box;
     justify-content: center;
-    padding: 73px 85px 102px 85px;
+    padding: 68px 86px 82px 85px;
 }
 
 .advantages-title {
@@ -318,7 +324,7 @@ body {
 
 .advantages-desc {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 17px;
     text-align: center;
 }
 
