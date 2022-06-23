@@ -131,6 +131,24 @@ body {
     height: 17px;
 }
 
+.like-counter {
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+    background: #7DB54F;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 248px;
+    top: 15px;
+}
+
 .navigation-button {
     display: inline-flex;
     width: 160px;
@@ -160,6 +178,12 @@ body {
     flex-grow: 1;
 }
 
+/* .advantages-image {
+    min-width: 800px;
+    min-height: 384px;
+    object-fit: cover;
+} */
+
 .main-background {
     background-image: url(./images/main-background.jpg);
     position: relative;
@@ -174,6 +198,7 @@ body {
     content: url("./images/vector/divider.svg");
     position: absolute;
     bottom: 0;
+    height: 57px;
 }
 
 .logo {
