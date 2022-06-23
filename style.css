@@ -27,7 +27,8 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: #000000;
-    background-color: #ffffff;
+    background-color: #F2F2F2;
+
 }
 
 .visually-hidden {
@@ -38,6 +39,7 @@ body {
 .container {
     margin: 0 auto;
     width: 1200px;
+    background-color: #ffffff;
 }
 
 .page-header {
@@ -509,8 +511,14 @@ body {
 
 .input-text {
     width: 600px;
-    height: 60px;
+    height: 58px;
     border-radius: 10px 0px 0px 10px;
+    border: #000000;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .subscribe-button {
@@ -526,6 +534,7 @@ body {
     width: 200px;
     height: 60px;
     border-radius: 0px 10px 10px 0px;
+    border: #000000;
 }
 
 .footer-background {
