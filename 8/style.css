@@ -28,7 +28,6 @@ body {
     line-height: 21px;
     color: #000000;
     background-color: #F2F2F2;
-
 }
 
 .visually-hidden {
@@ -265,6 +264,10 @@ body {
     justify-content: center;
     width: 400px;
     padding: 73px 85px 103px 85px;
+}
+
+.advantages-component {
+    background: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-features {
