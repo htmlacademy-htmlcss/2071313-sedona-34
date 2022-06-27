@@ -19,15 +19,15 @@ html {
 }
 
 body {
-    margin: 0;
     display: flex;
     flex-direction: column;
+    margin: 0;
     min-height: 100%;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 18px;
     line-height: 21px;
     color: #000000;
-    background-color: #ffffff;
+    background-color: #F2F2F2;
 }
 
 .visually-hidden {
@@ -38,43 +38,43 @@ body {
 .container {
     margin: 0 auto;
     width: 1200px;
+    background-color: #ffffff;
 }
 
 .page-header {
     display: flex;
     position: relative;
+    box-sizing: border-box;
+    padding: 0 67px 0 70px;
     width: 1200px;
     color: #000000;
     background: #ffffff;
-    padding: 0 67px 0 70px;
-    box-sizing: border-box;
 }
 
 .page-logo {
-    height: 65px;
     z-index: 1;
+    height: 65px;
 }
 
 .navigation {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    padding-left: 42px;
-    padding-right: 20px;
-    padding-top: 14px;
-    padding-bottom: 10px;
+    padding: 14px 20px 10px 42px;
 }
 
 .navigation-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
     display: grid;
     grid-template-columns: auto auto auto;
+    margin: 0;
+    padding: 0;
     gap: 24px;
+    list-style: none;
 }
 
 .navigation-item {
+    max-width: 110px;
+    margin: 0%;
     font-family: 'PT Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -82,12 +82,13 @@ body {
     line-height: 26px;
     text-transform: capitalize;
     color: #000000;
-    max-width: 110px;
-    margin: 0%;
 }
 
 .navigation-link {
+    display: block;
+    padding: 5px;
     font-family: "PT Sans", Arial, sans-serif;
+    font-style: normal;
     line-height: 26px;
     font-size: 20px;
     font-weight: 700;
@@ -95,21 +96,19 @@ body {
     background-color: #ffffff;
     text-transform: capitalize;
     text-decoration: none;
-    padding: 5px;
-    display: block;
     word-wrap: inherit;
 }
 
 .navigation-icon {
-    min-width: 264px;
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 14px 0 14px 0;
+    min-width: 264px;
 }
 
 .navigation-search {
-    text-decoration: none;
     padding: 7px;
+    text-decoration: none;
 }
 
 .navigation-search::before {
@@ -131,16 +130,33 @@ body {
     height: 17px;
 }
 
+.like-counter {
+    position: absolute;
+    top: 15px;
+    right: 248px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+    background: #7DB54F;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
 .navigation-button {
     display: inline-flex;
     width: 160px;
+    margin-left: 21px;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     background: #756157;
     text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 21px;
 }
 
 .navigation-text {
@@ -155,9 +171,10 @@ body {
 }
 
 .main-container {
-    width: 1200px;
     margin: 0 auto;
     flex-grow: 1;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .main-background {
@@ -174,6 +191,7 @@ body {
     content: url("./images/vector/divider.svg");
     position: absolute;
     bottom: 0;
+    height: 57px;
 }
 
 .logo {
@@ -185,14 +203,15 @@ body {
 .desc {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 63px 270px 90px 270px;
     background-size: 100% auto;
     color: #000000;
     background: #ffffff;
-    padding: 63px 270px 90px 270px;
-    margin: 0;
 }
 
 .headline {
+    margin: 0 0 31px 0;
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -202,10 +221,10 @@ body {
     text-transform: uppercase;
     background-size: 100% auto;
     color: #000000;
-    margin: 0 0 31px 0;
 }
 
 .preview {
+    margin: 0;
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -213,22 +232,21 @@ body {
     line-height: 26px;
     text-align: center;
     color: #333333;
-    margin: 0;
 }
 
 .advantages {
     width: 1200px;
+    margin: 0;
+    padding: 0;
     color: #000000;
     background: #ffffff;
     background-size: 100% auto;
-    margin: 0;
-    padding: 0;
 }
 
 .advantages-list {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     font-family: "PT Sans", Arial, sans-serif;
@@ -244,16 +262,20 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     justify-content: center;
-    padding: 73px 85px 102px 85px;
     width: 400px;
+    padding: 73px 85px 103px 85px;
+}
+
+.advantages-component {
+    background: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-size: 18px;
@@ -272,8 +294,8 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     justify-content: center;
-    padding: 80px 85px 81px 85px;
     width: 400px;
+    padding: 77px 85px 81px 85px;
 }
 
 .feature-desc {
@@ -295,19 +317,19 @@ body {
 }
 
 .advantages-preview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
     width: 400px;
+    padding: 68px 86px 88px 85px;
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
     background: #82B3D3;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    justify-content: center;
-    padding: 68px 86px 82px 85px;
 }
 
 .advantages-title {
@@ -316,15 +338,13 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    width: 230px;
-    height: 56px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .advantages-desc {
     margin-top: 0;
-    margin-bottom: 17px;
+    margin-bottom: 27px;
     text-align: center;
 }
 
@@ -336,6 +356,7 @@ body {
 }
 
 .feature-title {
+    margin: 30px 0 30px 0;
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -344,7 +365,6 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #000000;
-    margin: 30px 0 30px 0;
 }
 
 .food-icon {
@@ -353,9 +373,9 @@ body {
 
 .food-icon::before {
     content: url("./images/vector/food.svg");
-    margin: auto;
     width: 73px;
     height: 70px;
+    margin: auto;
 }
 
 .present-icon::before {
@@ -376,50 +396,50 @@ body {
     align-items: center;
     padding: 91px 300px 93px 300px;
     margin: 0;
+    background-size: 100% auto;
     color: #000000;
     background: #ffffff;
-    background-size: 100% auto;
 }
 
 .mailing {
+    margin: 0;
+    margin-bottom: 29px;
+    padding: 0;
+    text-align: center;
     font-family: "PT Sans", Arial, sans-serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
     color: #000000;
-    text-align: center;
-    margin: 0;
-    margin-bottom: 29px;
-    padding: 0;
 }
 
 .mailing-preview {
     display: flex;
     flex-direction: column;
+    margin: 0 4px 56px 4px;
+    padding: 0;
+    text-align: center;
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     color: #333333;
-    text-align: center;
-    margin: 0 4px 56px 4px;
-    padding: 0;
 }
 
 .search {
     display: inline-flex;
+    width: 574px;
+    height: 60px;
+    margin: 0 13px 0 13px;
+    padding: 0;
     justify-content: center;
     text-align: center;
     align-items: center;
     text-decoration: none;
     background: #756157;
-    width: 574px;
-    height: 60px;
     border-radius: 4px;
-    margin: 0 13px 0 13px;
-    padding: 0;
 }
 
 .search-text {
@@ -440,6 +460,7 @@ body {
 .subscription {
     display: flex;
     flex-direction: column;
+    padding: 94px 200px;
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -448,10 +469,11 @@ body {
     text-align: center;
     background-color: #82B3D3;
     color: #FFFFFF;
-    padding: 94px 200px;
 }
 
 .subscription-title {
+    margin: 0;
+    margin-bottom: 29px;
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -460,11 +482,11 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 0;
-    margin-bottom: 29px;
 }
 
 .subscription-text {
+    margin: 0;
+    margin-bottom: 46px;
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -472,23 +494,31 @@ body {
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
-    margin: 0;
-    margin-bottom: 46px;
 }
 
 .subscription-form {
     display: flex;
     width: 800px;
     height: 60px;
+    margin: 0;
 }
 
 .input-text {
-    width: 600px;
-    height: 60px;
+    width: 577px;
+    height: 58px;
+    padding-left: 22px;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
     border-radius: 10px 0px 0px 10px;
+    border: #000000;
 }
 
 .subscribe-button {
+    width: 200px;
+    height: 60px;
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -498,42 +528,37 @@ body {
     text-transform: uppercase;
     background: #82B3D3;
     color: #FFFFFF;
-    width: 200px;
-    height: 60px;
     border-radius: 0px 10px 10px 0px;
+    border: #000000;
 }
 
 .footer-background {
+    display: flex;
+    flex-direction: column;
     background: #82B3D3;
     background-image: url(./images/footer-background.jpg);
     background-size: cover;
-    display: flex;
-    flex-direction: column;
     background-repeat: no-repeat;
 }
 
 .footer-contacts {
     display: flex;
     flex-direction: row;
+    width: 1200px;
+    padding: 39px 64px 29px 71px;
     color: #000000;
     background: #ffffff;
     background-size: 100% auto;
-    width: 1200px;
     box-sizing: border-box;
-    padding: 39px 64px 29px;
     justify-content: space-between;
 }
 
-.footer-list a {
-    margin: 0 5px;
-}
-
 .footer-list {
+    display: flex;
     margin: 0;
     padding: 0;
-    display: flex;
-    list-style: none;
     align-items: center;
+    list-style: none;
 }
 
 .icon-1 {
@@ -541,6 +566,8 @@ body {
     width: 24px;
     height: 14px;
     padding: 6px;
+    margin-left: 5px;
+    margin-top: 4px;
 }
 
 .icon-2 {
@@ -548,6 +575,8 @@ body {
     width: 18px;
     height: 15px;
     padding: 6px;
+    margin-left: 15px;
+    margin-top: 3px;
 }
 
 .icon-3 {
@@ -555,9 +584,14 @@ body {
     width: 22px;
     height: 17px;
     padding: 6px;
+    margin-top: 4px;
+    margin-left: 14px;
 }
 
 .contact-number {
+    margin-left: 14px;
+    margin-top: 1px;
+    padding: 6px;
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -567,11 +601,11 @@ body {
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
-    padding: 6px;
 }
 
 .main-page {
     padding: 6px;
+    margin-top: 4px;
 }
 
 .logo-academy::before {
