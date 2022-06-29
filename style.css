@@ -99,6 +99,16 @@ body {
     word-wrap: inherit;
 }
 
+.navigation-link-indicator::before {
+    content: "";
+    position: absolute;
+    width: 68px;
+    height: 2px;
+    bottom: 0;
+    background-color: #756257;
+
+}
+
 .navigation-icon {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -157,6 +167,18 @@ body {
     border-radius: 4px;
     background: #756157;
     text-decoration: none;
+}
+
+.navigation-button:hover {
+    background-color: #615048;
+}
+
+.navigation-button:focus {
+    background-color: #615048;
+}
+
+.navigation-button:active {
+    background-color: #756157;
 }
 
 .navigation-text {
@@ -562,30 +584,33 @@ body {
 }
 
 .icon-1 {
-    content: url("./images/vector/vkontakte.svg");
-    width: 24px;
-    height: 14px;
     padding: 6px;
     margin-left: 5px;
-    margin-top: 4px;
+    color: #83B3D3;
 }
 
 .icon-2 {
-    content: url("./images/vector/telegram.svg");
-    width: 18px;
-    height: 15px;
     padding: 6px;
     margin-left: 15px;
-    margin-top: 3px;
+    color: #83B3D3;
 }
 
 .icon-3 {
-    content: url("./images/vector/youtube.svg");
-    width: 22px;
-    height: 17px;
     padding: 6px;
-    margin-top: 4px;
     margin-left: 14px;
+    color: #83B3D3;
+}
+
+.contact-button:hover {
+    color: #68A2CA;
+}
+
+.contact-button:focus {
+    color: #68A2CA;
+}
+
+.contact-button:active {
+    opacity: 0.3;
 }
 
 .contact-number {
@@ -603,13 +628,35 @@ body {
     text-decoration: none;
 }
 
+.contact-number:hover {
+    color: #756157;
+}
+
+.contact-number:focus {
+    color: #756157;
+}
+
+.contact-number:active {
+    opacity: 0.3;
+}
+
 .main-page {
     padding: 6px;
     margin-top: 4px;
 }
 
-.logo-academy::before {
-    content: url("./images/vector/logo-academy.svg");
-    width: 115px;
-    height: 33px;
+.logo-academy {
+    color: #000000;
+}
+
+.logo-academy:hover {
+    color: #756157;
+}
+
+.logo-academy:focus {
+    color: #756157;
+}
+
+.logo-academy:active {
+    opacity: 0.3;
 }
