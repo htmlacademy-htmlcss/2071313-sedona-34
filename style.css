@@ -99,6 +99,10 @@ body {
     word-wrap: inherit;
 }
 
+.navigation-link:hover, .navigation-link:focus, .navigation-link:active {
+    color: #615048;
+}
+
 .navigation-link-indicator::before {
     content: "";
     position: absolute;
@@ -107,6 +111,10 @@ body {
     bottom: 0;
     background-color: #756257;
 
+}
+
+.navigation-icon a:hover, .navigation-icon a:focus, .navigation-icon a:active {
+    color: #615048;
 }
 
 .navigation-icon {
@@ -119,25 +127,14 @@ body {
 .navigation-search {
     padding: 7px;
     text-decoration: none;
-}
-
-.navigation-search::before {
-    content: url("./images/vector/search.svg");
-    width: 18px;
-    height: 18px;
-    margin-left: 3px;
+    color: #000000;
 }
 
 .navigation-like {
     text-decoration: none;
     margin-left: 5px;
     padding: 8px;
-}
-
-.navigation-like::before {
-    content: url("./images/vector/like.svg");
-    width: 18px;
-    height: 17px;
+    color: #000000;
 }
 
 .like-counter {
@@ -457,7 +454,6 @@ body {
     margin: 0 13px 0 13px;
     padding: 0;
     justify-content: center;
-    text-align: center;
     align-items: center;
     text-decoration: none;
     background: #756157;
@@ -480,7 +476,7 @@ body {
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 36px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -550,6 +546,10 @@ body {
     border: #000000;
 }
 
+.input-text:disabled {
+    pointer-events: none; 
+}
+
 .subscribe-button {
     width: 200px;
     height: 60px;
@@ -580,6 +580,10 @@ body {
 
 .subscribe-button {
     cursor: pointer;
+}
+
+.subscribe-button:disabled {
+    background-color: #E5E5E5;
 }
 
 .footer-background {
