@@ -464,6 +464,18 @@ body {
     border-radius: 4px;
 }
 
+.search:hover {
+    background-color: #615048;
+}
+
+.search:focus {
+    background-color: #615048;
+}
+
+.search:active {
+    background-color: #756157;
+}
+
 .search-text {
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
@@ -552,6 +564,22 @@ body {
     color: #FFFFFF;
     border-radius: 0px 10px 10px 0px;
     border: #000000;
+}
+
+.subscribe-button:hover {
+    background-color: #68A2CA;
+}
+
+.subscribe-button:focus {
+    background-color: #68A2CA;
+}
+
+.subscribe-button:active {
+    background-color: #82B3D3;
+}
+
+.subscribe-button {
+    cursor: pointer;
 }
 
 .footer-background {
