@@ -546,6 +546,27 @@ body {
     border: #000000;
 }
 
+.input-text:hover {
+    background-color: #F2F2F2
+}
+
+/* .input-text:focus {
+    outline: auto;
+} */
+
+/* .input-text:focus-visible {
+    outline: auto;
+  } */
+  
+/* .input-text:placeholder-shown {
+    outline: none;
+} */
+
+.input-text:not(:placeholder-shown) {
+    background-color: #756157;
+    outline: none;
+}
+
 .input-text:disabled {
     pointer-events: none; 
 }
