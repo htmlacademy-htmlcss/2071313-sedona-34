@@ -56,6 +56,18 @@ body {
     height: 65px;
 }
 
+.page-logo:hover {
+    stroke: #F2F2F2;
+}
+
+.page-logo:focus {
+    outline: auto #000000;
+}
+
+.page-logo:active {
+    outline: dashed #68A2CA;
+}
+
 .navigation {
     display: flex;
     flex-direction: row;
@@ -99,10 +111,6 @@ body {
     word-wrap: inherit;
 }
 
-.navigation-link:hover, .navigation-link:focus, .navigation-link:active {
-    color: #615048;
-}
-
 .navigation-link-indicator::before {
     content: "";
     position: absolute;
@@ -110,11 +118,24 @@ body {
     height: 2px;
     bottom: 0;
     background-color: #756257;
-
 }
 
-.navigation-icon a:hover, .navigation-icon a:focus, .navigation-icon a:active {
+.navigation-link:hover,
+.navigation-search:hover,
+.navigation-like:hover {
     color: #615048;
+}
+
+.navigation-link:focus,
+.navigation-search:focus,
+.navigation-like:focus {
+    outline: auto;
+}
+
+.navigation-link:active,
+.navigation-search:active,
+.navigation-like:active {
+    color: #68A2CA;
 }
 
 .navigation-icon {
@@ -172,6 +193,7 @@ body {
 
 .navigation-button:focus {
     background-color: #615048;
+    outline: auto #000000;
 }
 
 .navigation-button:active {
@@ -466,6 +488,7 @@ body {
 
 .search:focus {
     background-color: #615048;
+    outline: auto #000000;
 }
 
 .search:active {
@@ -550,25 +573,17 @@ body {
     background-color: #F2F2F2
 }
 
-/* .input-text:focus {
+.input-text:focus {
     outline: auto;
-} */
-
-/* .input-text:focus-visible {
-    outline: auto;
-  } */
-  
-/* .input-text:placeholder-shown {
-    outline: none;
-} */
+}
 
 .input-text:not(:placeholder-shown) {
-    background-color: #756157;
+    background-color: #FAF0E6;
     outline: none;
 }
 
 .input-text:disabled {
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 .subscribe-button {
@@ -593,6 +608,7 @@ body {
 
 .subscribe-button:focus {
     background-color: #68A2CA;
+    outline: auto #000000;
 }
 
 .subscribe-button:active {
@@ -660,6 +676,7 @@ body {
 
 .contact-button:focus {
     color: #68A2CA;
+    outline: auto #000000;
 }
 
 .contact-button:active {
@@ -687,6 +704,7 @@ body {
 
 .contact-number:focus {
     color: #756157;
+    outline: auto #000000;
 }
 
 .contact-number:active {
@@ -708,6 +726,7 @@ body {
 
 .logo-academy:focus {
     color: #756157;
+    outline: auto #000000;
 }
 
 .logo-academy:active {
