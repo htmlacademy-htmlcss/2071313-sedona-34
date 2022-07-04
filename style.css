@@ -298,62 +298,9 @@ body {
     color: #333333;
 }
 
-.advantages-item {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    justify-content: center;
-    width: 400px;
-    padding: 73px 85px 103px 85px;
-}
-
-.advantages-component {
-    background: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-features {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    font-family: "PT Sans", Arial, sans-serif;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 21px;
-    color: #000000;
-    background: rgba(131, 179, 211, 0.12);
-}
-
-.feature {
-    width: 400px;
-    background: rgba(131, 179, 211, 0.12);
-}
-
-.feature {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    justify-content: center;
-    width: 400px;
-    padding: 77px 85px 81px 85px;
-}
-
-.feature-desc {
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
-}
-
 .advantages-block {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.advantages-block-1 {
-    display: flex;
-    flex-direction: row-reverse;
     flex-wrap: wrap;
 }
 
@@ -387,6 +334,36 @@ body {
     margin-top: 0;
     margin-bottom: 27px;
     text-align: center;
+}
+
+.feature-desc {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.advantages-features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    background: rgba(131, 179, 211, 0.12);
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 400px;
+    padding: 77px 85px 81px 85px;
+    background: rgba(131, 179, 211, 0.12);
 }
 
 .house-icon::before {
@@ -424,6 +401,25 @@ body {
     width: 64px;
     height: 76px;
     margin: auto;
+}
+
+.advantages-block-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.advantages-item {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 400px;
+    padding: 73px 85px 103px 85px;
+}
+
+.advantages-component {
+    background: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-color {
@@ -499,7 +495,7 @@ body {
     font-family: "PT Sans", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 36px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -522,6 +518,15 @@ body {
     text-align: center;
     background-color: #82B3D3;
     color: #FFFFFF;
+}
+
+.footer-background {
+    display: flex;
+    flex-direction: column;
+    background: #82B3D3;
+    background-image: url(./images/footer-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .subscription-title {
@@ -623,15 +628,6 @@ body {
     background-color: #E5E5E5;
 }
 
-.footer-background {
-    display: flex;
-    flex-direction: column;
-    background: #82B3D3;
-    background-image: url(./images/footer-background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .footer-contacts {
     display: flex;
     flex-direction: row;
@@ -652,6 +648,19 @@ body {
     list-style: none;
 }
 
+.contact-button:hover {
+    color: #68A2CA;
+}
+
+.contact-button:focus {
+    color: #68A2CA;
+    outline: auto #000000;
+}
+
+.contact-button:active {
+    opacity: 0.3;
+}
+
 .icon-1 {
     padding: 6px;
     margin-left: 5px;
@@ -668,19 +677,6 @@ body {
     padding: 6px;
     margin-left: 14px;
     color: #83B3D3;
-}
-
-.contact-button:hover {
-    color: #68A2CA;
-}
-
-.contact-button:focus {
-    color: #68A2CA;
-    outline: auto #000000;
-}
-
-.contact-button:active {
-    opacity: 0.3;
 }
 
 .contact-number {
@@ -711,12 +707,9 @@ body {
     opacity: 0.3;
 }
 
-.main-page {
-    padding: 6px;
-    margin-top: 4px;
-}
-
 .logo-academy {
+    margin-top: 4px;
+    padding: 6px;
     color: #000000;
 }
 
