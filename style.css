@@ -30,6 +30,11 @@ body {
     background-color: #F2F2F2;
 }
 
+img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
 .visually-hidden {
     position: fixed;
     transform: scale(0);
@@ -179,6 +184,7 @@ body {
 .navigation-button {
     display: inline-flex;
     width: 160px;
+    height: 37px;
     margin-left: 21px;
     justify-content: center;
     align-items: center;
