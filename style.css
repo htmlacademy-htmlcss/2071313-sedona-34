@@ -225,7 +225,7 @@ img {
 }
 
 .main-background {
-    background-image: url(./images/main-background.jpg);
+    background-image: url("./images/main-background.jpg");
     position: relative;
     width: 1200px;
     height: 485px;
@@ -530,7 +530,7 @@ img {
     display: flex;
     flex-direction: column;
     background: #82B3D3;
-    background-image: url(./images/footer-background.jpg);
+    background-image: url("./images/footer-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
