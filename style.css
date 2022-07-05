@@ -30,6 +30,11 @@ body {
     background-color: #F2F2F2;
 }
 
+img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
 .visually-hidden {
     position: fixed;
     transform: scale(0);
@@ -219,7 +224,7 @@ body {
 }
 
 .main-background {
-    background-image: url(./images/main-background.jpg);
+    background-image: url("./images/main-background.jpg");
     position: relative;
     width: 1200px;
     height: 485px;
@@ -364,6 +369,10 @@ body {
     width: 400px;
     padding: 77px 85px 81px 85px;
     background: rgba(131, 179, 211, 0.12);
+}
+
+.house-icon {
+    padding: 77px 115px 81px 115px;
 }
 
 .house-icon::before {
@@ -524,7 +533,7 @@ body {
     display: flex;
     flex-direction: column;
     background: #82B3D3;
-    background-image: url(./images/footer-background.jpg);
+    background-image: url("./images/footer-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
