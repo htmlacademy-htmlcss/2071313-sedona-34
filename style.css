@@ -184,7 +184,6 @@ img {
 .navigation-button {
     display: inline-flex;
     width: 160px;
-    height: 37px;
     margin-left: 21px;
     justify-content: center;
     align-items: center;
