@@ -372,6 +372,10 @@ img {
     background: rgba(131, 179, 211, 0.12);
 }
 
+.house-icon {
+    padding: 77px 115px 81px 115px;
+}
+
 .house-icon::before {
     content: url("./images/vector/house.svg");
     width: 75px;
