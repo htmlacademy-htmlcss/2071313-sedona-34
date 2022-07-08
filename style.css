@@ -912,8 +912,36 @@ img {
 
 .children {
     margin-left: 56px;
-    margin-right: 48px;
 }
+
+.tooltip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 18px;
+    margin-left: 5px;
+    top: 11px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #83B3D3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* .tooltip::before {
+    content: "";
+    margin-right: 18px;
+    margin-left: 5px;
+    top: 11px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #83B3D3;
+    position: relative;
+} */
 
 .modal-button {
     display: flex;
@@ -979,3 +1007,4 @@ img {
     color: #FFFFFF;
     cursor: pointer;
 }
+
