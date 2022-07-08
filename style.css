@@ -778,10 +778,13 @@ img {
     background: #F2F2F2;
     border-radius: 50%;
     border: none;
-    background-image: url("images/vector/modal-button.svg");
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+}
+
+.modal-close-button:active {
+    color: darkgray;
 }
 
 .modal-header {
@@ -804,6 +807,10 @@ img {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.modal-element {
+    position: relative;
 }
 
 .arrival-date,
@@ -846,6 +853,36 @@ img {
     margin-left: 36px;
 }
 
+.modal-error {
+    position: absolute;
+    white-space: nowrap;
+
+    left: 154px;
+    bottom: 11px;
+
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FF5757;
+}
+
+.modal-reserve {
+    position: absolute;
+    white-space: nowrap;
+
+    left: 154px;
+    bottom: 13px;
+
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color:#000000;
+}
+
 .modal-container {
     display: flex;
     flex-direction: row;
@@ -854,32 +891,37 @@ img {
     margin: 0;
 }
 
+.modal-container-element {
+    display: flex;
+    flex-direction: row;
+}
+
 .adults,
 .children {
     font-family: 'PT Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 26px;
+    line-height: 46px;
     color: #000000;
 }
 
 .adults {
-    margin-right: 56px;
+    margin-right: 63px;
 }
 
 .children {
     margin-left: 56px;
-    margin-right: 45px;
+    margin-right: 48px;
 }
 
 .modal-button {
+    position: relative;
     font-family: 'PT Sans', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-
     width: 133px;
     height: 50px;
     border: none;
@@ -887,6 +929,12 @@ img {
     border-radius: 4px;
     padding: 0;
     margin-bottom: 42px;
+}
+
+.modal-number {
+    position: absolute;
+    left: 60px;
+    top: 15px;
 }
 
 .search-modal-button {
@@ -908,4 +956,5 @@ img {
     align-items: center;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
 }
