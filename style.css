@@ -734,3 +734,178 @@ img {
 .logo-academy:active {
     opacity: 0.3;
 }
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+
+    background-color: #F2F2F2;
+    opacity: 0.8;
+
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 222;
+
+    padding: 54px 70px 70px 70px;
+    width: 572px;
+    height: 435px;
+
+    transform: translate(-50%, -50%);
+
+    border-radius: 30px;
+    background-color: #FFFFFF;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal-close-button {
+    position: absolute;
+    right: 70px;
+    top: 54px;
+    width: 53px;
+    height: 53px;
+    background: #F2F2F2;
+    border-radius: 50%;
+    border: none;
+    background-image: url("images/vector/modal-button.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.modal-header {
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 62px;
+}
+
+.modal-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.arrival-date,
+.departure-date {
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.modal-date,
+.modal-container {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    color: #000000;
+}
+
+.modal-date {
+    width: 398px;
+    height: 51px;
+    background: #F2F2F2;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    border: none;
+    /* float: right;
+    clear: both; */
+    padding: 0;
+    padding-left: 19px;
+    margin-left: 31px;
+}
+
+.arrive {
+    margin-left: 36px;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.adults,
+.children {
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.adults {
+    margin-right: 56px;
+}
+
+.children {
+    margin-left: 56px;
+    margin-right: 45px;
+}
+
+.modal-button {
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    width: 133px;
+    height: 50px;
+    border: none;
+    background: #F2F2F2;
+    border-radius: 4px;
+    padding: 0;
+    margin-bottom: 42px;
+}
+
+.search-modal-button {
+    padding: 0;
+    margin: 0;
+
+    width: 572px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background: #83B3D3;
+
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}

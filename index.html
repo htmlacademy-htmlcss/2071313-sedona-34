@@ -219,4 +219,35 @@
   </div>
 </body>
 
+<div class="overlay hidden"></div>
+<div class="modal hidden">
+  <button class="modal-close-button">
+    <span class="visually-hidden">Закрыть</span>
+  </button>
+  <h2 class="modal-header">Поиск гостиницы в Седоне</h2>
+  <ul class="modal-list">
+    <li>
+      <label class="arrival-date" for="arrival-date">Дата заезда:</label>
+      <input class="modal-date arrive" type="text" placeholder="Дата заезда" value="27 апреля 2020" id="arrival-date">
+    </li>
+    <li>
+      <label class="departure-date" for="departure-date">Дата выезда:</label>
+      <input class="modal-date" type="text" placeholder="Дата выезда" value="1 сентября 2021" id="departure-date">
+    </li>
+  </ul>
+  <ul class="modal-container">
+    <li>
+      <label class="adults" for="adults-button">Взрослые:</label>
+      <input class="modal-button" type="button" value="2" id="adults-button">
+    </li>
+    <li>
+      <label class="children" for="children-button">Дети:</label>
+      <input class="modal-button" type="button" value="1" id="children-button">
+    </li>
+  </ul>
+  <input class="search-modal-button" type="button" value="Найти">
+</div>
+
+<script src="./main.js"></script>
+
 </html>
