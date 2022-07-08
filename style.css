@@ -894,6 +894,7 @@ img {
 .modal-container-element {
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .adults,
@@ -930,6 +931,35 @@ img {
     cursor: pointer;
 }
 
+.tooltip-text {
+    position: absolute;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: none;
+    padding: 20px 22px 23px;
+    border-radius: 10px;
+    display: block;
+    width: 256px;
+    top: calc(100% + 15px);
+    background-color: #333333;
+    color: #FFFFFF;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 1;
+    transition: visibility 0.3s, opacity 0.3s;
+}
+
+/* .tooltip-text::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    top: -15px;
+    background: url(".images/vector/info.svg")
+} */
 /* .tooltip::before {
     content: "";
     margin-right: 18px;
