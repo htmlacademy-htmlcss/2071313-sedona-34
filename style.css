@@ -842,8 +842,6 @@ img {
     border-radius: 4px;
     margin-bottom: 40px;
     border: none;
-    /* float: right;
-    clear: both; */
     padding: 0;
     padding-left: 19px;
     margin-left: 31px;
@@ -880,7 +878,7 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
-    color:#000000;
+    color: #000000;
 }
 
 .modal-container {
@@ -929,49 +927,40 @@ img {
     background: #83B3D3;
     color: #FFFFFF;
     cursor: pointer;
+    border: none;
 }
 
 .tooltip-text {
     position: absolute;
     font-size: 16px;
-    line-height: 20px;
     text-transform: none;
-    padding: 20px 22px 23px;
+    padding: 14px 22px 23px;
     border-radius: 10px;
     display: block;
-    width: 256px;
-    top: calc(100% + 15px);
+    width: 211px;
+    top: calc(100% + -36px);
     background-color: #333333;
     color: #FFFFFF;
     left: 50%;
-    transform: translate(-50%);
-    z-index: 1000;
-    visibility: hidden;
+    transform: translate(-58%);
+    z-index: 1;
+    /* visibility: hidden; */
     opacity: 1;
     transition: visibility 0.3s, opacity 0.3s;
 }
 
-/* .tooltip-text::after {
-    content: "";
+.tooltip-text:after {
+    content: '';
+    background-image: url("images/vector/arrow.svg");
+    width: 19px;
+    height: 9px;
     position: absolute;
     bottom: 100%;
     left: 0;
     right: 0;
-    top: -15px;
-    background: url(".images/vector/info.svg")
-} */
-/* .tooltip::before {
-    content: "";
-    margin-right: 18px;
-    margin-left: 5px;
-    top: 11px;
-    display: block;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: #83B3D3;
-    position: relative;
-} */
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .modal-button {
     display: flex;
@@ -988,11 +977,12 @@ img {
     background: #F2F2F2;
     border-radius: 4px;
     padding: 0;
-    margin-bottom: 42px;
+    margin-bottom: 38px;
 
 }
 
-.modal-more-button, .modal-less-button {
+.modal-more-button,
+.modal-less-button {
     width: 33px;
     height: 33px;
     border: none;
@@ -1037,4 +1027,3 @@ img {
     color: #FFFFFF;
     cursor: pointer;
 }
-
