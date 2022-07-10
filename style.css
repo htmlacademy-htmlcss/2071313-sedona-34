@@ -755,7 +755,7 @@ img {
     left: 50%;
     z-index: 222;
     padding: 54px 70px 70px 70px;
-    width: 572px;
+    min-width: 572px;
     min-height: 435px;
     transform: translate(-50%, -50%);
     border-radius: 30px;
@@ -853,7 +853,6 @@ img {
     height: 51px;
     background: #F2F2F2;
     border-radius: 4px;
-    /* margin-bottom: 36px; */
     margin-bottom: 33px;
     padding: 0;
     padding-left: 19px;
@@ -876,7 +875,6 @@ img {
 }
 
 .modal-date-departure {
-    /* margin-bottom: 34px; */
     margin-bottom: 36px;
 }
 
@@ -996,9 +994,6 @@ img {
     color: #FFFFFF;
     left: 50%;
     transform: translate(-58%);
-    z-index: 1;
-    opacity: 1;
-    transition: visibility 0.3s, opacity 0.3s;
 }
 
 .tooltip-text:after {
