@@ -217,87 +217,88 @@
 
     </footer>
   </div>
+
+  <div class="overlay hidden"></div>
+  <div class="modal hidden">
+    <button class="modal-close-button">
+      <span class="visually-hidden">Закрыть</span>
+      <svg aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg">
+        <path d="M13 1.2L11.8 0L6.5 5.3L1.2 0L0 1.2L5.3 6.5L0 11.8L1.2 13L6.5 7.7L11.8 13L13 11.8L7.7 6.5L13 1.2Z"
+          fill="currentColor" />
+      </svg>
+    </button>
+    <h2 class="modal-header">Поиск гостиницы в Седоне</h2>
+    <ul class="modal-list">
+      <li class="modal-element">
+        <div class="arrive">
+          <label class="arrival-date" for="arrival-date">Дата заезда:</label>
+          <input class="modal-date" type="text" placeholder="Дата заезда" value="27 апреля 2020" id="arrival-date">
+          <span class="modal-error">Мы не можем отправить вас в прошлое.</span>
+        </div>
+      </li>
+      <li class="modal-element">
+        <div class="arrive">
+          <label class="departure-date" for="departure-date">Дата выезда:</label>
+          <input class="modal-date modal-date-departure" type="text" placeholder="Дата выезда" value="1 сентября 2021"
+            id="departure-date">
+          <span class="modal-reserve">На эти даты есть свободные номера. Пока есть.</span>
+        </div>
+      </li>
+    </ul>
+    <ul class="modal-container">
+      <li class="modal-container-element">
+        <span class="adults">Взрослые:</span>
+        <div class="modal-button">
+          <button class="modal-less-button" type="button">
+            <svg aria-hidden="true" focusable="false" width="13" height="1" viewBox="0 0 13 1" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0L0 1L13 1V0L0 0Z" fill="currentColor" />
+            </svg>
+            <span class="visually-hidden">Меньше</span>
+          </button>
+
+          <span class="modal-number">2</span>
+          <button class="modal-more-button" type="button">
+            <svg aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z" fill="currentColor" />
+            </svg>
+            <span class="visually-hidden">Больше</span>
+          </button>
+        </div>
+      </li>
+      <li class="modal-container-element">
+        <span class="children">Дети:</span>
+        <button class="tooltip" aria-labelledby="tooltip-children">i</button>
+        <span class="tooltip-text" role="tooltip" id="tooltip-children">Укажите количество детей, которые будут с вами,
+          возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+        <div class="modal-button">
+          <button class="modal-less-button" type="button">
+            <svg aria-hidden="true" focusable="false" width="13" height="1" viewBox="0 0 13 1" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0L0 1L13 1V0L0 0Z" fill="currentColor" />
+            </svg>
+            <span class="visually-hidden">Меньше</span>
+          </button>
+
+          <span class="modal-number">1</span>
+          <button class="modal-more-button" type="button">
+            <svg aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z" fill="currentColor" />
+            </svg>
+            <span class="visually-hidden">Больше</span>
+          </button>
+        </div>
+      </li>
+    </ul>
+    <button class="search-modal-button" type="button">
+      Найти
+    </button>
+  </div>
+
+  <script src="./main.js"></script>
 </body>
-
-<div class="overlay hidden"></div>
-<div class="modal hidden">
-  <button class="modal-close-button">
-    <span class="visually-hidden">Закрыть</span>
-    <svg aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="currentColor"
-      xmlns="http://www.w3.org/2000/svg">
-      <path d="M13 1.2L11.8 0L6.5 5.3L1.2 0L0 1.2L5.3 6.5L0 11.8L1.2 13L6.5 7.7L11.8 13L13 11.8L7.7 6.5L13 1.2Z"
-        fill="currentColor" />
-    </svg>
-  </button>
-  <h2 class="modal-header">Поиск гостиницы в Седоне</h2>
-  <ul class="modal-list">
-    <li class="modal-element">
-      <div class="arrive">
-        <label class="arrival-date" for="arrival-date">Дата заезда:</label>
-      <input class="modal-date" type="text" placeholder="Дата заезда" value="27 апреля 2020" id="arrival-date">
-      <span class="modal-error">Мы не можем отправить вас в прошлое.</span>
-      </div>
-    </li>
-    <li class="modal-element">
-      <div class="arrive">
-        <label class="departure-date" for="departure-date">Дата выезда:</label>
-      <input class="modal-date modal-date-departure" type="text" placeholder="Дата выезда" value="1 сентября 2021" id="departure-date">
-      <span class="modal-reserve">На эти даты есть свободные номера. Пока есть.</span>
-      </div>
-    </li>
-  </ul>
-  <ul class="modal-container">
-    <li class="modal-container-element">
-      <span class="adults">Взрослые:</span>
-      <div class="modal-button">
-        <button class="modal-less-button" type="button">
-          <svg aria-hidden="true" focusable="false" width="13" height="1" viewBox="0 0 13 1" fill="currentColor"
-            xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 0L0 1L13 1V0L0 0Z" fill="currentColor" />
-          </svg>
-          <span class="visually-hidden">Меньше</span>
-        </button>
-
-        <span class="modal-number">2</span>
-        <button class="modal-more-button" type="button">
-          <svg aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="currentColor"
-            xmlns="http://www.w3.org/2000/svg">
-            <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z" fill="currentColor" />
-          </svg>
-          <span class="visually-hidden">Больше</span>
-        </button>
-      </div>
-    </li>
-    <li class="modal-container-element">
-      <span class="children">Дети:</span>
-      <button class="tooltip" aria-labelledby="tooltip-children">i</button>
-      <span class="tooltip-text" role="tooltip" id="tooltip-children">Укажите количество детей, которые будут с вами,
-        возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
-      <div class="modal-button">
-        <button class="modal-less-button" type="button">
-          <svg aria-hidden="true" focusable="false" width="13" height="1" viewBox="0 0 13 1" fill="currentColor"
-            xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 0L0 1L13 1V0L0 0Z" fill="currentColor" />
-          </svg>
-          <span class="visually-hidden">Меньше</span>
-        </button>
-
-        <span class="modal-number">1</span>
-        <button class="modal-more-button" type="button">
-          <svg aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="currentColor"
-            xmlns="http://www.w3.org/2000/svg">
-            <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z" fill="currentColor" />
-          </svg>
-          <span class="visually-hidden">Больше</span>
-        </button>
-      </div>
-    </li>
-  </ul>
-  <button class="search-modal-button" type="button">
-    Найти
-  </button>
-</div>
-
-<script src="./main.js"></script>
 
 </html>
