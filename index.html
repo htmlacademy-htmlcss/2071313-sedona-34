@@ -232,16 +232,18 @@
   <h2 class="modal-header">Поиск гостиницы в Седоне</h2>
   <ul class="modal-list">
     <li class="modal-element">
-      <label class="arrival-date" for="arrival-date">Дата заезда:</label>
+      <div class="arrive">
+        <label class="arrival-date" for="arrival-date">Дата заезда:</label>
       <input class="modal-date" type="text" placeholder="Дата заезда" value="27 апреля 2020" id="arrival-date">
-      <span class="arrive">Календарь</span>
       <span class="modal-error">Мы не можем отправить вас в прошлое.</span>
+      </div>
     </li>
     <li class="modal-element">
-      <label class="departure-date" for="departure-date">Дата выезда:</label>
-      <input class="modal-date" type="text" placeholder="Дата выезда" value="1 сентября 2021" id="departure-date">
-      <span class="arrive">Календарь</span>
+      <div class="arrive">
+        <label class="departure-date" for="departure-date">Дата выезда:</label>
+      <input class="modal-date modal-date-departure" type="text" placeholder="Дата выезда" value="1 сентября 2021" id="departure-date">
       <span class="modal-reserve">На эти даты есть свободные номера. Пока есть.</span>
+      </div>
     </li>
   </ul>
   <ul class="modal-container">
