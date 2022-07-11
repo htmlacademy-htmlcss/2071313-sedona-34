@@ -220,7 +220,7 @@
 
   <div class="overlay hidden"></div>
   <div class="modal hidden">
-    <button class="modal-close-button">
+    <button class="modal-close-button" type="button">
       <span class="visually-hidden">Закрыть</span>
       <svg aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="currentColor"
         xmlns="http://www.w3.org/2000/svg">
@@ -293,9 +293,11 @@
         </div>
       </li>
     </ul>
-    <button class="search-modal-button" type="button">
-      Найти
-    </button>
+    <form method="post">
+      <button class="search-modal-button" type="submit">
+        Найти
+      </button>
+    </form>
   </div>
 
   <script src="./main.js"></script>
