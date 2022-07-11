@@ -743,10 +743,8 @@ img {
     right: 0;
     bottom: 0;
     z-index: 2;
-
     background-color: #F2F2F2;
     opacity: 0.8;
-
 }
 
 .modal {
