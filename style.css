@@ -82,7 +82,8 @@ img {
 
 .navigation-list {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    max-width: 600px;
     margin: 0;
     padding: 0;
     gap: 24px;
@@ -184,6 +185,8 @@ img {
 .navigation-button {
     display: inline-flex;
     width: 160px;
+    height: max-content;
+    min-height: 37px;
     margin-left: 21px;
     justify-content: center;
     align-items: center;
@@ -345,6 +348,11 @@ img {
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
+}
+
+.advantages-image {
+    object-fit: cover;
+    height: auto;
 }
 
 .advantages-features {
